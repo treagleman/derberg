@@ -14,6 +14,7 @@ The process includes:
 ## Dependency scripts
 
 Installs:
+
 `npm install --save-dev vite`  
 `npm install plotly.js-dist-min`  
 `npm install --save-dev prettier`  
@@ -30,7 +31,7 @@ Prettier:
 
 Use `npx` to run scripts local to the repository. This removes the need to declare npm scripts in the package.json file if desired. E.g. `npx vite` rather than `npm run dev` with vite configured to the dev script.
 
-use `npm update` to update all the dependency versions listed in your package.json. This will update all minor release versions. Major release versions will need to be installed independently.
+Use `npm update` to update all the dependency versions listed in your package.json. This will update all minor release versions. Major release versions will need to be installed separately.
 
 JavaScript Transformation in vite can be done with an integrated plugin `@vitejs/plugin-react` rather than a transformation tool such as **Babel**.
 
