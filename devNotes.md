@@ -2,6 +2,8 @@
 
 This is a site built following the MDN [Client-Side Tools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management) walkthrough.
 
+The final build can be viewed on my [github.io site](https://treagleman.github.io/derberg/)
+
 It includes the boilerplate for a basic web application useing web development tools such as npm, vite, frameworks, etc.
 
 The process includes:
@@ -50,3 +52,5 @@ Github deployment steps:
 Vite comes pre-packaged with all the build tools installed such as *tree-shaking*, *minification*, and *cache-busting*.
 
 It is best practice to always include the build command as a script in the package.json.
+
+[Publishing with a custom GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
